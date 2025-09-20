@@ -1,0 +1,1 @@
+Here, I used Eclipse IDE, JPA Annotations, H2 Database, and used @PersistenceContext Annotation for Criteria API Queries
