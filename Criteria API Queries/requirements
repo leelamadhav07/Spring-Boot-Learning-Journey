@@ -1,0 +1,1 @@
+Here, I used the Eclipse IDE, JPA Annotations, and the H2 Database, utilising the @PersistenceContext Annotation for custom queries.
