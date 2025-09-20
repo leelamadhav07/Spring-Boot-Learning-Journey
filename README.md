@@ -1,7 +1,7 @@
 # Spring Boot Learning Journey
 
 This repository documents my hands-on learning path in Spring Boot and Spring Data JPA.  
-Each folder represents a specific concept or module I practiced, with demonstrations and examples.
+Each folder represents a specific concept or module I practised, with demonstrations and examples.
 
 ## Topics Covered
 
@@ -23,6 +23,9 @@ Each folder represents a specific concept or module I practiced, with demonstrat
 - **DTO Classes**  
   Gained hands-on experience with Data Transfer Object (DTO) classes in Spring Boot, using custom queries to map and retrieve only the required data.
 
+- **Criteria API Queries**  
+  Gained hands-on experience with Criteria API queries using the `@PersistenceContext` annotation by building custom queries dynamically.
+
 ## Requirements
 
 - **IDE**: Eclipse  
@@ -37,7 +40,7 @@ While this is a learning repository and not a full-fledged project, if you want 
 - Place **repository interfaces** (JPA repositories) inside a `repository` package.  
 - Place **service classes** inside a `service` package.  
 - Place **controller classes** (if you create REST endpoints) inside a `controller` package.  
-- Place **DTO classes** inside a `dto` package to clearly separate data transfer objects from entities.
+- Place **DTO classes** inside a `dto` package to clearly separate data transfer objects from entities.  
 
 This mirrors the common Spring Boot structure and makes it easier to run and understand the code when practising.
 
