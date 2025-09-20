@@ -17,15 +17,25 @@ Each folder represents a specific concept or module I practised, with demonstrat
 - **JPA Query Methods**  
   Demonstrated Spring Data JPA query methods and their integration with the H2 database.
 
-- **JPQL Queries**  
+- **JPQL**  
   Learned and practised writing custom queries using JPQL and the `@Query` annotation for flexible data retrieval and manipulation.
 
 ## Requirements
 
 - **IDE**: Eclipse  
 - **Database**: H2 (in-memory)  
-- **Persistence**: JPA Annotations  
-- **Custom Queries**: `@Query` Annotation in Spring Data JPA  
+- **Persistence**: JPA Annotations    
+
+## How to Organise Files
+
+While this is a learning repository and not a full-fledged project, if you want to try out the code:
+
+- Place **entities/models** inside a `model` or `entity` package.  
+- Place **repository interfaces** (JPA repositories) inside a `repository` package.  
+- Place **service classes** inside a `service` package.  
+- Place **controller classes** (if you create REST endpoints) inside a `controller` package.  
+
+This mirrors the common Spring Boot structure and makes it easier to run and understand the code when practising.
 
 ---
 
